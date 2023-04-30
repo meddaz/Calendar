@@ -1,0 +1,43 @@
+body {
+    background-color: #2E282A;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    padding: 20px;
+}
+
+
+td {
+    padding:20px;
+    font-size: 40px;
+}
+
+#container {
+    border: 2px solid #76B041;
+    display: inline-block;
+ 
+}
+#calendar {
+
+   
+margin:0;
+padding:0;
+    background-color: #E4572E;
+}
+
+#monthYear {
+   background-color: #17BEBB;
+   margin:0;
+   padding:0;
+
+}
+#month, #year {
+    display:inline-block;
+    font-size:30px;
+}
+
+#prevBtn {
+    transform: scaleX(-1);
+}
